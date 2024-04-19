@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com tabelas</title> <!-- A abertura e fechamento do título -->
+</head>
+<body>
+    <h1>Trabalhando com tabelas</h1> 
+    <table border="1"> <!-- Acrescenta as linhas em voltas de todos os registros da tabela-->
+        <tr> <!-- Abertura da linha do cabecalho -->
+            <th></th> <!-- espaço em branco antes do registro-->
+            <th>cod</th> <!-- Primeira coluna do cabecalho da tabela -->
+            <th>produto</th>
+            <th>valor</th>
+        
+        </tr> <!-- fechamento da linha do cabecalho -->
+
+        <tr>
+            <td rowspan ="4">produtos</td> <!-- rowspan acrescenta o espaço que um registro tem na tabela na vertical -->
+            <td>1</td> <!-- Primeiro registro da tabela -->
+            <td>arroz</td>
+            <td>R$5,00</td>
+        </tr>
+
+        <tr>
+            <td>2</td> <!-- Segundo registro da tabela -->
+            <td>feijão</td>
+            <td>R$3,00</td>
+        </tr>
+
+        <tr>
+            <td>3</td> <!-- Terceiro registro da tabela -->
+            <td>salada</td>
+            <td>R$2,00</td>
+        </tr>
+
+        <tr>
+            <td>4</td> <!-- Quarto registro da tabela -->
+            <td>proteína</td>
+            <td>R$10,00</td>
+        </tr>
+        
+        <tr>
+            <th></th> <!-- espaço em branco antes do registro-->
+            <td colspan="2">Total</td> <!-- colspan acrescenta o espaço que um registro tem na tabela na horizontal-->
+            <td>R$20,00</td>
+        </tr>
+
+        </table> <!-- Fechamento da Tabela -->
+</body>
+</html>

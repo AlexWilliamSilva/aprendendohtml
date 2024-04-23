@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+</head>
+<body>
+
+    <form action="/action_page.php" method="get">
+    
+
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Chrome"></option>
+            <option value="Firefox"></option>
+            <option value="Internet Explorer"></option>
+            <option value="Opera"></option>
+            <option value="Safari"></option>
+        </datalist>
+
+    <h1>Formulário da Biblioteca</h1>
+
+    <div style="width: 25%;">
+        <fieldset>
+     <legend><h2>Identificação do usuário</h2></legend>
+    <label for="nome">Nome:</label><br>
+    <input type="text" name="class" id="nome">
+    <br>
+    <label for="sobrenome">Sobrenome:</label><br>
+    <input type="text" name="class" id="sobrenome">
+    <br>
+    <label for="email">Email:</label><br>
+    <input type="email" name="class" id="email">
+    <br>
+    <label for="cpf">CPF:</label><br>
+    <input type="text" name="class" id="cpf">
+    <br>
+    <label for="datadenascimento">Data de Nascimento:</label><br>
+    <input type="date" name="class" id="datadenascimento">
+    <br>
+    <label for="Categoria">Categoria:</label><br>
+    <select name="class" id="Categoria">
+        <optgroup>
+            <option value="professor">Professor</option>
+            <option value="aluno">Aluno</option>
+            <option value="servidor">Servidor</option>
+        </optgroup>
+    </select>
+    </fieldset>
+    </div>
+
+   <div style="width: 25%;">
+   <fieldset>
+     <legend><h2>Identificação do Livro</h2></legend>
+    <label for="autor(a)">Autor(a):</label><br>
+    <input type="text" name="class" id="autor(a)">
+    <br>
+    <label for="nomedolivro">Nome do Livro:</label><br>
+    <input type="text" name="class" id="nomedolivro">
+    <br>
+    <label for="númerodepáginas">Número de páginas:</label><br>
+    <input type="number" min="1" name="class" id="númerodepáginas">
+    <br>
+    <label for="categoriasdefilmes">Categoria de Filmes:</label><br>
+
+        <label for="Romance">Romance</label>
+        <input type="checkbox" name="class" id="Romance">
+
+          <label for="Mistério">Mistério</label>
+          <input type="checkbox" name="class" id="Mistério">
+
+          <label for="Terror">Terror</label>
+          <input type="checkbox" name="class" id="Terror">
+          
+          <label for="Suspense">Suspense</label>
+          <input type="checkbox" name="class" id="Suspense">
+          
+          <label for="Fantasia/Aventura">Fantasia/Aventura</label>
+          <input type="checkbox" name="class" id="Fantasia/Aventura">
+    <br>
+    <label for="">Faixa etária</label><br>
+    <input type="radio" name="class" id="Livre">
+    <label for="Livre">Livre</label>
+
+    <input type="radio" name="class" id="maiorde12">
+    <label for="maiorde12">12+</label>
+
+    <input type="radio" name="class" id="maiorde18">
+    <label for="maiorde18">18+</label>
+        
+    </select>
+    <br>
+    <label for="">Deixe um comentário se tiver novas ideias</label>
+    <textarea name="Comentários" id="comentários" cols="30" rows="10"></textarea>
+    </fieldset>
+   </div>
+   <input type="submit">
+</form>
+</body>
+</html>
